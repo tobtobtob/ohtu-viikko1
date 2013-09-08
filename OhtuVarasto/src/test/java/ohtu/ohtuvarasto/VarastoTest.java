@@ -94,6 +94,7 @@ public class VarastoTest {
         varasto.lisaaVarastoon(88.88);
         assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
+    
     @Test
     public void negatiivinenPoistoEiSekoitaPakkaa(){
         varasto.lisaaVarastoon(6.66);
