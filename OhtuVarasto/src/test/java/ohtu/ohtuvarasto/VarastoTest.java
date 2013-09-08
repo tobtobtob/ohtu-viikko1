@@ -92,7 +92,7 @@ public class VarastoTest {
     public void lisastessaLiikaaeiTulviYliAyraiden(){
         varasto.lisaaVarastoon(6.66);
         varasto.lisaaVarastoon(88.88);
-        assertEquals(1, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
     @Test
     public void negatiivinenPoistoEiSekoitaPakkaa(){
